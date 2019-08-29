@@ -1,4 +1,4 @@
-This repo provides the code with paper "Hierarchical Text Classification with Reinforced Label Assignment" EMNLP 2019.
+This repo provides the code with paper ["Hierarchical Text Classification with Reinforced Label Assignment"](https://arxiv.org/abs/1908.10419) EMNLP 2019.
 
 ## Abstract
 
