@@ -1,0 +1,540 @@
+{'parents': [], 'children': [u'Beauty & Spas', u'Active Life', u'Hotels & Travel', u'Mass Media', u'Home Services', u'Event Planning & Services', u'Pets', u'Arts & Entertainment', u'Nightlife', u'Shopping', u'Food', u'Health & Medical', u'Religious Organizations', u'Restaurants', u'Professional Services', u'Local Flavor', u'Financial Services', u'Local Services', u'Public Services & Government', u'Automotive', u'Education'], 'title': 'root'}
+{'parents': ['root'], 'children': [u'Piercing', u'Barbers', u'Makeup Artists', u'Eyelash Service', u'Hair Removal', u'Eyebrow Services', u'Nail Salons', u'Massage', u'Tanning', u'Day Spas', u'Hair Extensions', u'Tattoo', u'Skin Care', u'Permanent Makeup', u'Cosmetics & Beauty Supply', u'Hair Salons', u'Medical Spas'], 'title': u'Beauty & Spas'}
+{'parents': ['root'], 'children': [u'Summer Camps', u'Bike Rentals', u'Fitness & Instruction', u'Boating', u'Escape Games', u'Amusement Parks', u'Hiking', u'Gun/Rifle Ranges', u'Bowling', u'Sports Clubs', u'Golf', u'Recreation Centers', u'Swimming Pools', u'Parks', u'Playgrounds', u'Kids Activities', u'Gymnastics', u'Amateur Sports Teams'], 'title': u'Active Life'}
+{'parents': ['root'], 'children': [u'Travel Services', u'Hotels', u'Tours', u'Resorts', u'Bed & Breakfast', u'Car Rental', u'Airports', u'Transportation'], 'title': u'Hotels & Travel'}
+{'parents': ['root'], 'children': [u'Print Media'], 'title': u'Mass Media'}
+{'parents': ['root'], 'children': [u'Painters', u'Electricians', u'Carpet Installation', u'Plumbing', u'Fences & Gates', u'Flooring', u'Drywall Installation & Repair', u'Pool & Hot Tub Service', u'Packing Services', u'Television Service Providers', u'Carpeting', u'Irrigation', u'Water Heater Installation/Repair', u'Handyman', u'Home Window Tinting', u'Damage Restoration', u'Gardeners', u'Home Theatre Installation', u'Gutter Services', u'Shades & Blinds', u'Tree Services', u'Cabinetry', u'Interior Design', u'Home Cleaning', u'Pressure Washers', u'Security Systems', u'Lighting Fixtures & Equipment', u'Masonry/Concrete', u'Internet Service Providers', u'Glass & Mirrors', u'Windows Installation', u'Home Organization', u'Movers', u'Real Estate', u'Roofing', u'Building Supplies', u'Contractors', u'Home Automation', u'Pool Cleaners', u'Tiling', u'Window Washing', u'Door Sales/Installation', u'Solar Installation', u'Landscape Architects', u'Refinishing Services', u'Garage Door Services', u'Keys & Locksmiths', u'Home Inspectors', u'Water Purification Services', u'Landscaping', u'Heating & Air Conditioning/HVAC'], 'title': u'Home Services'}
+{'parents': ['root'], 'children': [u'Cards & Stationery', u'Wedding Planning', u'Videographers', u'Photographers', u'Caterers', u'Hotels', u'Party Bus Rentals', u'Party Equipment Rentals', u'Party Supplies', u'Venues & Event Spaces', u'DJs', u'Party & Event Planning', u'Photo Booth Rentals'], 'title': u'Event Planning & Services'}
+{'parents': ['root'], 'children': [u'Veterinarians', u'Pet Adoption', u'Animal Shelters', u'Pet Services', u'Pet Stores'], 'title': u'Pets'}
+{'parents': ['root'], 'children': [u'Casinos', u'Museums', u'Wineries', u'Arcades', u'Supernatural Readings', u'Performing Arts', u'Art Galleries', u'Cinema', u'Social Clubs', u'Music Venues', u'Festivals', u'Stadiums & Arenas', u'Jazz & Blues'], 'title': u'Arts & Entertainment'}
+{'parents': ['root'], 'children': [u'Adult Entertainment', u'Dance Clubs', u'Karaoke', u'Comedy Clubs', u'Bars', u'Music Venues', u'Pool Halls', u'Jazz & Blues'], 'title': u'Nightlife'}
+{'parents': ['root'], 'children': [u'Adult', u'Wholesale Stores', u'Antiques', u'Fashion', u'Shopping Centers', u'Department Stores', u'Outlet Stores', u'Discount Store', u'Gold Buyers', u'Office Equipment', u'Thrift Stores', u'Flowers & Gifts', u'Knitting Supplies', u'Hobby Shops', u'Customized Merchandise', u'Tobacco Shops', u'Watches', u'Toy Stores', u'Art Galleries', u'Wigs', u'Computers', u'Musical Instruments & Teachers', u'Photography Stores & Services', u'Vitamins & Supplements', u'Guns & Ammo', u'Bridal', u'Arts & Crafts', u'Jewelry', u'Baby Gear & Furniture', u'Vape Shops', u'Drugstores', u'Eyewear & Opticians', u'Pawn Shops', u'Medical Supplies', u'Personal Shopping', u'Electronics', u'Mobile Phone Accessories', u'Mobile Phones', u'Cosmetics & Beauty Supply', u'Home & Garden', u'Head Shops', u'Sporting Goods', u'Vinyl Records', u'Video Game Stores', u'Comic Books', u'Videos & Video Game Rental', u'Music & DVDs', u'Bookstores'], 'title': u'Shopping'}
+{'parents': ['root'], 'children': [u'Convenience Stores', u'Do-It-Yourself Food', u'Farmers Market', u'Food Delivery Services', u'Coffee & Tea', u'Delicatessen', u'Wineries', u'Butcher', u'Bagels', u'Poke', u'Shaved Ice', u'Internet Cafes', u'Street Vendors', u'Tea Rooms', u'Bakeries', u'Donuts', u'Coffee Roasteries', u'Specialty Food', u'Grocery', u'Cupcakes', u'Organic Stores', u'Patisserie/Cake Shop', u'Imported Food', u'Custom Cakes', u'Food Trucks', u'Desserts', u'Breweries', u'Ice Cream & Frozen Yogurt', u'Juice Bars & Smoothies', u'Bubble Tea', u'Gelato'], 'title': u'Food'}
+{'parents': ['root'], 'children': [u'Acupuncture', u'Laser Eye Surgery/Lasik', u'Massage Therapy', u'Counseling & Mental Health', u'Pharmacy', u'Nutritionists', u'Cannabis Clinics', u'Reflexology', u'Reiki', u'Medical Centers', u'Weight Loss Centers', u'Optometrists', u'Physical Therapy', u'Chiropractors', u'Retirement Homes', u'Home Health Care', u'Dentists', u'Rehabilitation Center', u'Urgent Care', u'Doctors', u'Hospitals', u'Traditional Chinese Medicine', u'Diagnostic Services', u'Medical Spas'], 'title': u'Health & Medical'}
+{'parents': ['root'], 'children': [u'Churches'], 'title': u'Religious Organizations'}
+{'parents': ['root'], 'children': [u'Breakfast & Brunch', u'Japanese', u'American (New)', u'Creperies', u'Tex-Mex', u'Sushi Bars', u'Pizza', u'Greek', u'Chicken Wings', u'Swabian', u'Canadian (New)', u'Steakhouses', u'Noodles', u'Cajun/Creole', u'Gastropubs', u'Buffets', u'Vegetarian', u'Halal', u'Burgers', u'Portuguese', u'Comfort Food', u'Filipino', u'Food Stands', u'Vegan', u'International', u'French', u'Soup', u'Southern', u'African', u'Persian/Iranian', u'Afghan', u'British', u'Spanish', u'Thai', u'Delis', u'American (Traditional)', u'Seafood', u'German', u'Cafes', u'Diners', u'Soul Food', u'Indian', u'Caribbean', u'Gluten-Free', u'Tapas Bars', u'Chinese', u'Brasseries', u'Mexican', u'Chicken Shop', u'Vietnamese', u'Fast Food', u'Modern European', u'Sandwiches', u'Wraps', u'Latin American', u'Turkish', u'Hot Dogs', u'Middle Eastern', u'Hawaiian', u'Bistros', u'Poutineries', u'Mediterranean', u'Salad', u'Asian Fusion', u'Pakistani', u'Korean', u'Taiwanese', u'Kosher', u'Barbeque', u'Cheesesteaks', u'Italian', u'Food Court', u'Tapas/Small Plates', u'Irish', u'Fish & Chips'], 'title': u'Restaurants'}
+{'parents': ['root'], 'children': [u'Graphic Design', u'Employment Agencies', u'Marketing', u'Advertising', u'Legal Services', u'Internet Service Providers', u'Web Design', u'Lawyers', u'Signmaking', u'Office Cleaning', u'Life Coach', u'Video/Film Production', u'Accountants'], 'title': u'Professional Services'}
+{'parents': ['root'], 'children': [], 'title': u'Local Flavor'}
+{'parents': ['root'], 'children': [u'Banks & Credit Unions', u'Insurance', u'Check Cashing/Pay-day Loans', u'Financial Advising', u'Tax Services'], 'title': u'Financial Services'}
+{'parents': ['root'], 'children': [u'Screen Printing/T-Shirt Printing', u'Recycling Center', u'Jewelry Repair', u'Child Care & Day Care', u'Bike Repair/Maintenance', u'Appliances & Repair', u'Shoe Repair', u'Shipping Centers', u'Musical Instrument Services', u'Furniture Reupholstery', u'Pest Control', u'IT Services & Computer Repair', u'Community Service/Non-Profit', u'Laundry Services', u'Sewing & Alterations', u'Junk Removal & Hauling', u'Self Storage', u'Air Duct Cleaning', u'Printing Services', u'Funeral Services & Cemeteries', u'Couriers & Delivery Services', u'Screen Printing', u'Carpet Cleaning', u'Watch Repair', u'Notaries', u'Electronics Repair'], 'title': u'Local Services'}
+{'parents': ['root'], 'children': [u'Departments of Motor Vehicles', u'Libraries', u'Post Offices', u'Landmarks & Historical Buildings'], 'title': u'Public Services & Government'}
+{'parents': ['root'], 'children': [u'Tires', u'Roadside Assistance', u'Auto Customization', u'Auto Glass Services', u'RV Repair', u'Car Wash', u'Gas Stations', u'Towing', u'RV Dealers', u'Auto Parts & Supplies', u'Auto Detailing', u'Parking', u'Motorcycle Repair', u'Smog Check Stations', u'Motorcycle Dealers', u'Used Car Dealers', u'Body Shops', u'Wheel & Rim Repair', u'Auto Repair', u'Car Dealers', u'Vehicle Wraps', u'Car Stereo Installation', u'Windshield Installation & Repair', u'Oil Change Stations', u'Truck Rental', u'Transmission Repair', u'Auto Loan Providers'], 'title': u'Automotive'}
+{'parents': ['root'], 'children': [u'Elementary Schools', u'Colleges & Universities', u'Middle Schools & High Schools', u'Art Classes', u'Educational Services', u'Preschools', u'Private Tutors', u'Specialty Schools', u'Adult Education'], 'title': u'Education'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Piercing'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Barbers'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Makeup Artists'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Eyelash Service'}
+{'parents': [u'Beauty & Spas'], 'children': [u'Laser Hair Removal', u'Threading Services', u'Waxing'], 'title': u'Hair Removal'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Eyebrow Services'}
+{'parents': [u'Beauty & Spas'], 'children': [u'Nail Technicians'], 'title': u'Nail Salons'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Massage'}
+{'parents': [u'Beauty & Spas'], 'children': [u'Spray Tanning'], 'title': u'Tanning'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Day Spas'}
+{'parents': [u'Hair Salons', u'Beauty & Spas'], 'children': [], 'title': u'Hair Extensions'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Tattoo'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Skin Care'}
+{'parents': [u'Beauty & Spas'], 'children': [], 'title': u'Permanent Makeup'}
+{'parents': [u'Beauty & Spas', u'Shopping'], 'children': [], 'title': u'Cosmetics & Beauty Supply'}
+{'parents': [u'Beauty & Spas'], 'children': [u'Hair Stylists', u"Men's Hair Salons", u'Blow Dry/Out Services', u'Hair Extensions'], 'title': u'Hair Salons'}
+{'parents': [u'Health & Medical', u'Beauty & Spas'], 'children': [], 'title': u'Medical Spas'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Summer Camps'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Bike Rentals'}
+{'parents': [u'Active Life'], 'children': [u'Boot Camps', u'Barre Classes', u'Trainers', u'Gyms', u'Pilates', u'Yoga', u'Boxing', u'Martial Arts', u'Dance Studios'], 'title': u'Fitness & Instruction'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Boating'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Escape Games'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Amusement Parks'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Hiking'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Gun/Rifle Ranges'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Bowling'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Sports Clubs'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Golf'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Recreation Centers'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Swimming Pools'}
+{'parents': [u'Active Life'], 'children': [u'Dog Parks'], 'title': u'Parks'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Playgrounds'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Kids Activities'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Gymnastics'}
+{'parents': [u'Active Life'], 'children': [], 'title': u'Amateur Sports Teams'}
+{'parents': [u'Hotels & Travel'], 'children': [], 'title': u'Travel Services'}
+{'parents': [u'Event Planning & Services', u'Hotels & Travel'], 'children': [], 'title': u'Hotels'}
+{'parents': [u'Hotels & Travel'], 'children': [], 'title': u'Tours'}
+{'parents': [u'Hotels & Travel'], 'children': [], 'title': u'Resorts'}
+{'parents': [u'Hotels & Travel'], 'children': [], 'title': u'Bed & Breakfast'}
+{'parents': [u'Hotels & Travel'], 'children': [], 'title': u'Car Rental'}
+{'parents': [u'Hotels & Travel'], 'children': [], 'title': u'Airports'}
+{'parents': [u'Hotels & Travel'], 'children': [u'Public Transportation', u'Airlines', u'Limos', u'Taxis', u'Airport Shuttles'], 'title': u'Transportation'}
+{'parents': [u'Mass Media'], 'children': [], 'title': u'Print Media'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Painters'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Electricians'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Carpet Installation'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Plumbing'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Fences & Gates'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Flooring'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Drywall Installation & Repair'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Pool & Hot Tub Service'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Packing Services'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Television Service Providers'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Carpeting'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Irrigation'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Water Heater Installation/Repair'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Handyman'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Home Window Tinting'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Damage Restoration'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Gardeners'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Home Theatre Installation'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Gutter Services'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Shades & Blinds'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Tree Services'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Cabinetry'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Interior Design'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Home Cleaning'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Pressure Washers'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Security Systems'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Lighting Fixtures & Equipment'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Masonry/Concrete'}
+{'parents': [u'Home Services', u'Professional Services'], 'children': [], 'title': u'Internet Service Providers'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Glass & Mirrors'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Windows Installation'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Home Organization'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Movers'}
+{'parents': [u'Home Services'], 'children': [u'Real Estate Services', u'Apartments', u'Real Estate Agents', u'Commercial Real Estate', u'Mortgage Brokers', u'Property Management'], 'title': u'Real Estate'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Roofing'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Building Supplies'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Contractors'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Home Automation'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Pool Cleaners'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Tiling'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Window Washing'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Door Sales/Installation'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Solar Installation'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Landscape Architects'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Refinishing Services'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Garage Door Services'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Keys & Locksmiths'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Home Inspectors'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Water Purification Services'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Landscaping'}
+{'parents': [u'Home Services'], 'children': [], 'title': u'Heating & Air Conditioning/HVAC'}
+{'parents': [u'Event Planning & Services', u'Flowers & Gifts', u'Arts & Crafts'], 'children': [], 'title': u'Cards & Stationery'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'Wedding Planning'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'Videographers'}
+{'parents': [u'Event Planning & Services'], 'children': [u'Event Photography', u'Session Photography'], 'title': u'Photographers'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'Caterers'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'Party Bus Rentals'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'Party Equipment Rentals'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'Party Supplies'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'Venues & Event Spaces'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'DJs'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'Party & Event Planning'}
+{'parents': [u'Event Planning & Services'], 'children': [], 'title': u'Photo Booth Rentals'}
+{'parents': [u'Pets'], 'children': [], 'title': u'Veterinarians'}
+{'parents': [u'Pets'], 'children': [], 'title': u'Pet Adoption'}
+{'parents': [u'Pets'], 'children': [], 'title': u'Animal Shelters'}
+{'parents': [u'Pets'], 'children': [u'Dog Walkers', u'Pet Training', u'Pet Sitting', u'Pet Groomers'], 'title': u'Pet Services'}
+{'parents': [u'Pets'], 'children': [], 'title': u'Pet Stores'}
+{'parents': [u'Arts & Entertainment'], 'children': [], 'title': u'Casinos'}
+{'parents': [u'Arts & Entertainment'], 'children': [], 'title': u'Museums'}
+{'parents': [u'Arts & Entertainment', u'Food'], 'children': [], 'title': u'Wineries'}
+{'parents': [u'Arts & Entertainment'], 'children': [], 'title': u'Arcades'}
+{'parents': [u'Arts & Entertainment'], 'children': [], 'title': u'Supernatural Readings'}
+{'parents': [u'Arts & Entertainment'], 'children': [], 'title': u'Performing Arts'}
+{'parents': [u'Arts & Entertainment', u'Shopping'], 'children': [], 'title': u'Art Galleries'}
+{'parents': [u'Arts & Entertainment'], 'children': [], 'title': u'Cinema'}
+{'parents': [u'Arts & Entertainment'], 'children': [], 'title': u'Social Clubs'}
+{'parents': [u'Arts & Entertainment', u'Nightlife'], 'children': [], 'title': u'Music Venues'}
+{'parents': [u'Arts & Entertainment'], 'children': [], 'title': u'Festivals'}
+{'parents': [u'Arts & Entertainment'], 'children': [], 'title': u'Stadiums & Arenas'}
+{'parents': [u'Arts & Entertainment', u'Nightlife'], 'children': [], 'title': u'Jazz & Blues'}
+{'parents': [u'Nightlife'], 'children': [], 'title': u'Adult Entertainment'}
+{'parents': [u'Nightlife'], 'children': [], 'title': u'Dance Clubs'}
+{'parents': [u'Nightlife'], 'children': [], 'title': u'Karaoke'}
+{'parents': [u'Nightlife'], 'children': [], 'title': u'Comedy Clubs'}
+{'parents': [u'Nightlife'], 'children': [u'Sports Bars', u'Pubs', u'Gay Bars', u'Hookah Bars', u'Beer Bar', u'Dive Bars', u'Cocktail Bars', u'Lounges', u'Wine Bars'], 'title': u'Bars'}
+{'parents': [u'Nightlife'], 'children': [], 'title': u'Pool Halls'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Adult'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Wholesale Stores'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Antiques'}
+{'parents': [u'Shopping'], 'children': [u"Men's Clothing", u'Plus Size Fashion', u'Department Stores', u'Accessories', u'Shoe Stores', u"Children's Clothing", u'Formal Wear', u'Leather Goods', u'Lingerie', u'Sports Wear', u"Women's Clothing"], 'title': u'Fashion'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Shopping Centers'}
+{'parents': [u'Shopping', u'Fashion'], 'children': [], 'title': u'Department Stores'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Outlet Stores'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Discount Store'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Gold Buyers'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Office Equipment'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Thrift Stores'}
+{'parents': [u'Shopping'], 'children': [u'Cards & Stationery', u'Gift Shops', u'Florists'], 'title': u'Flowers & Gifts'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Knitting Supplies'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Hobby Shops'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Customized Merchandise'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Tobacco Shops'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Watches'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Toy Stores'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Wigs'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Computers'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Musical Instruments & Teachers'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Photography Stores & Services'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Vitamins & Supplements'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Guns & Ammo'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Bridal'}
+{'parents': [u'Shopping'], 'children': [u'Cards & Stationery', u'Costumes', u'Framing', u'Fabric Stores', u'Art Supplies'], 'title': u'Arts & Crafts'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Jewelry'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Baby Gear & Furniture'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Vape Shops'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Drugstores'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Eyewear & Opticians'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Pawn Shops'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Medical Supplies'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Personal Shopping'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Electronics'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Mobile Phone Accessories'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Mobile Phones'}
+{'parents': [u'Shopping'], 'children': [u'Hot Tub & Pool', u'Furniture Stores', u'Appliances', u'Rugs', u'Kitchen & Bath', u'Nurseries & Gardening', u'Home Decor', u'Hardware Stores', u'Mattresses'], 'title': u'Home & Garden'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Head Shops'}
+{'parents': [u'Shopping'], 'children': [u'Outdoor Gear', u'Sports Wear', u'Bikes'], 'title': u'Sporting Goods'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Vinyl Records'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Video Game Stores'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Comic Books'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Videos & Video Game Rental'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Music & DVDs'}
+{'parents': [u'Shopping'], 'children': [], 'title': u'Bookstores'}
+{'parents': [u'Food'], 'children': [], 'title': u'Convenience Stores'}
+{'parents': [u'Food'], 'children': [], 'title': u'Do-It-Yourself Food'}
+{'parents': [u'Food'], 'children': [], 'title': u'Farmers Market'}
+{'parents': [u'Food'], 'children': [], 'title': u'Food Delivery Services'}
+{'parents': [u'Food'], 'children': [], 'title': u'Coffee & Tea'}
+{'parents': [u'Food'], 'children': [], 'title': u'Delicatessen'}
+{'parents': [u'Food'], 'children': [], 'title': u'Butcher'}
+{'parents': [u'Food'], 'children': [], 'title': u'Bagels'}
+{'parents': [u'Food'], 'children': [], 'title': u'Poke'}
+{'parents': [u'Food'], 'children': [], 'title': u'Shaved Ice'}
+{'parents': [u'Food'], 'children': [], 'title': u'Internet Cafes'}
+{'parents': [u'Food'], 'children': [], 'title': u'Street Vendors'}
+{'parents': [u'Food'], 'children': [], 'title': u'Tea Rooms'}
+{'parents': [u'Food'], 'children': [], 'title': u'Bakeries'}
+{'parents': [u'Food'], 'children': [], 'title': u'Donuts'}
+{'parents': [u'Food'], 'children': [], 'title': u'Coffee Roasteries'}
+{'parents': [u'Food'], 'children': [u'Meat Shops', u'Health Markets', u'Chocolatiers & Shops', u'Cheese Shops', u'Fruits & Veggies', u'Seafood Markets', u'Candy Stores'], 'title': u'Specialty Food'}
+{'parents': [u'Food'], 'children': [], 'title': u'Grocery'}
+{'parents': [u'Food'], 'children': [], 'title': u'Cupcakes'}
+{'parents': [u'Food'], 'children': [], 'title': u'Organic Stores'}
+{'parents': [u'Food'], 'children': [], 'title': u'Patisserie/Cake Shop'}
+{'parents': [u'Food'], 'children': [], 'title': u'Imported Food'}
+{'parents': [u'Food'], 'children': [], 'title': u'Custom Cakes'}
+{'parents': [u'Food'], 'children': [], 'title': u'Food Trucks'}
+{'parents': [u'Food'], 'children': [], 'title': u'Desserts'}
+{'parents': [u'Food'], 'children': [], 'title': u'Breweries'}
+{'parents': [u'Food'], 'children': [], 'title': u'Ice Cream & Frozen Yogurt'}
+{'parents': [u'Food'], 'children': [], 'title': u'Juice Bars & Smoothies'}
+{'parents': [u'Food'], 'children': [], 'title': u'Bubble Tea'}
+{'parents': [u'Food'], 'children': [], 'title': u'Gelato'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Acupuncture'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Laser Eye Surgery/Lasik'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Massage Therapy'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Counseling & Mental Health'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Pharmacy'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Nutritionists'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Cannabis Clinics'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Reflexology'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Reiki'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Medical Centers'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Weight Loss Centers'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Optometrists'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Physical Therapy'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Chiropractors'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Retirement Homes'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Home Health Care'}
+{'parents': [u'Health & Medical'], 'children': [u'General Dentistry', u'Pediatric Dentists', u'Cosmetic Dentists', u'Oral Surgeons', u'Periodontists', u'Orthodontists', u'Endodontists'], 'title': u'Dentists'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Rehabilitation Center'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Urgent Care'}
+{'parents': [u'Health & Medical'], 'children': [u'Naturopathic/Holistic', u'Sports Medicine', u'Cosmetic Surgeons', u'Pain Management', u'Internal Medicine', u'Orthopedists', u'Obstetricians & Gynecologists', u'Podiatrists', u'Pediatricians', u'Dermatologists', u'Surgeons', u'Tattoo Removal', u'Family Practice', u'Ophthalmologists'], 'title': u'Doctors'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Hospitals'}
+{'parents': [u'Health & Medical'], 'children': [], 'title': u'Traditional Chinese Medicine'}
+{'parents': [u'Health & Medical'], 'children': [u'Laboratory Testing', u'Diagnostic Imaging'], 'title': u'Diagnostic Services'}
+{'parents': [u'Religious Organizations'], 'children': [], 'title': u'Churches'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Breakfast & Brunch'}
+{'parents': [u'Restaurants'], 'children': [u'Ramen'], 'title': u'Japanese'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'American (New)'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Creperies'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Tex-Mex'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Sushi Bars'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Pizza'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Greek'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Chicken Wings'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Swabian'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Canadian (New)'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Steakhouses'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Noodles'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Cajun/Creole'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Gastropubs'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Buffets'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Vegetarian'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Halal'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Burgers'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Portuguese'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Comfort Food'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Filipino'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Food Stands'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Vegan'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'International'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'French'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Soup'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Southern'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'African'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Persian/Iranian'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Afghan'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'British'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Spanish'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Thai'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Delis'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'American (Traditional)'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Seafood'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'German'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Cafes'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Diners'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Soul Food'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Indian'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Caribbean'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Gluten-Free'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Tapas Bars'}
+{'parents': [u'Restaurants'], 'children': [u'Dim Sum'], 'title': u'Chinese'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Brasseries'}
+{'parents': [u'Restaurants'], 'children': [u'Tacos'], 'title': u'Mexican'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Chicken Shop'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Vietnamese'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Fast Food'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Modern European'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Sandwiches'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Wraps'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Latin American'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Turkish'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Hot Dogs'}
+{'parents': [u'Restaurants'], 'children': [u'Lebanese'], 'title': u'Middle Eastern'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Hawaiian'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Bistros'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Poutineries'}
+{'parents': [u'Restaurants'], 'children': [u'Falafel'], 'title': u'Mediterranean'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Salad'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Asian Fusion'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Pakistani'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Korean'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Taiwanese'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Kosher'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Barbeque'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Cheesesteaks'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Italian'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Food Court'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Tapas/Small Plates'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Irish'}
+{'parents': [u'Restaurants'], 'children': [], 'title': u'Fish & Chips'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Graphic Design'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Employment Agencies'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Marketing'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Advertising'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Legal Services'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Web Design'}
+{'parents': [u'Professional Services'], 'children': [u'DUI Law', u'Criminal Defense Law', u'Divorce & Family Law', u'Estate Planning Law', u'Personal Injury Law', u'Bankruptcy Law', u'Business Law', u'General Litigation', u'Real Estate Law'], 'title': u'Lawyers'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Signmaking'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Office Cleaning'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Life Coach'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Video/Film Production'}
+{'parents': [u'Professional Services'], 'children': [], 'title': u'Accountants'}
+{'parents': [u'Financial Services'], 'children': [], 'title': u'Banks & Credit Unions'}
+{'parents': [u'Financial Services'], 'children': [u'Life Insurance', u'Home & Rental Insurance', u'Auto Insurance'], 'title': u'Insurance'}
+{'parents': [u'Financial Services'], 'children': [], 'title': u'Check Cashing/Pay-day Loans'}
+{'parents': [u'Financial Services'], 'children': [], 'title': u'Financial Advising'}
+{'parents': [u'Financial Services'], 'children': [], 'title': u'Tax Services'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Screen Printing/T-Shirt Printing'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Recycling Center'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Jewelry Repair'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Child Care & Day Care'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Bike Repair/Maintenance'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Appliances & Repair'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Shoe Repair'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Shipping Centers'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Musical Instrument Services'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Furniture Reupholstery'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Pest Control'}
+{'parents': [u'Local Services'], 'children': [u'Telecommunications', u'Mobile Phone Repair', u'Data Recovery'], 'title': u'IT Services & Computer Repair'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Community Service/Non-Profit'}
+{'parents': [u'Local Services'], 'children': [u'Dry Cleaning', u'Laundromat'], 'title': u'Laundry Services'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Sewing & Alterations'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Junk Removal & Hauling'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Self Storage'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Air Duct Cleaning'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Printing Services'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Funeral Services & Cemeteries'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Couriers & Delivery Services'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Screen Printing'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Carpet Cleaning'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Watch Repair'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Notaries'}
+{'parents': [u'Local Services'], 'children': [], 'title': u'Electronics Repair'}
+{'parents': [u'Public Services & Government'], 'children': [], 'title': u'Departments of Motor Vehicles'}
+{'parents': [u'Public Services & Government'], 'children': [], 'title': u'Libraries'}
+{'parents': [u'Public Services & Government'], 'children': [], 'title': u'Post Offices'}
+{'parents': [u'Public Services & Government'], 'children': [], 'title': u'Landmarks & Historical Buildings'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Tires'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Roadside Assistance'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Auto Customization'}
+{'parents': [u'Automotive'], 'children': [u'Car Window Tinting'], 'title': u'Auto Glass Services'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'RV Repair'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Car Wash'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Gas Stations'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Towing'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'RV Dealers'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Auto Parts & Supplies'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Auto Detailing'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Parking'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Motorcycle Repair'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Smog Check Stations'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Motorcycle Dealers'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Used Car Dealers'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Body Shops'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Wheel & Rim Repair'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Auto Repair'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Car Dealers'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Vehicle Wraps'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Car Stereo Installation'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Windshield Installation & Repair'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Oil Change Stations'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Truck Rental'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Transmission Repair'}
+{'parents': [u'Automotive'], 'children': [], 'title': u'Auto Loan Providers'}
+{'parents': [u'Education'], 'children': [], 'title': u'Elementary Schools'}
+{'parents': [u'Education'], 'children': [], 'title': u'Colleges & Universities'}
+{'parents': [u'Education'], 'children': [], 'title': u'Middle Schools & High Schools'}
+{'parents': [u'Education'], 'children': [], 'title': u'Art Classes'}
+{'parents': [u'Education'], 'children': [], 'title': u'Educational Services'}
+{'parents': [u'Education'], 'children': [], 'title': u'Preschools'}
+{'parents': [u'Education'], 'children': [], 'title': u'Private Tutors'}
+{'parents': [u'Education'], 'children': [u'Cosmetology Schools', u'Driving Schools', u'Dance Schools', u'Art Schools'], 'title': u'Specialty Schools'}
+{'parents': [u'Education'], 'children': [], 'title': u'Adult Education'}
+{'parents': [u'Hair Removal'], 'children': [], 'title': u'Laser Hair Removal'}
+{'parents': [u'Hair Removal'], 'children': [], 'title': u'Threading Services'}
+{'parents': [u'Hair Removal'], 'children': [], 'title': u'Waxing'}
+{'parents': [u'Nail Salons'], 'children': [], 'title': u'Nail Technicians'}
+{'parents': [u'Tanning'], 'children': [], 'title': u'Spray Tanning'}
+{'parents': [u'Hair Salons'], 'children': [], 'title': u'Hair Stylists'}
+{'parents': [u'Hair Salons'], 'children': [], 'title': u"Men's Hair Salons"}
+{'parents': [u'Hair Salons'], 'children': [], 'title': u'Blow Dry/Out Services'}
+{'parents': [u'Fitness & Instruction'], 'children': [], 'title': u'Boot Camps'}
+{'parents': [u'Fitness & Instruction'], 'children': [], 'title': u'Barre Classes'}
+{'parents': [u'Fitness & Instruction'], 'children': [], 'title': u'Trainers'}
+{'parents': [u'Fitness & Instruction'], 'children': [u'Interval Training Gyms'], 'title': u'Gyms'}
+{'parents': [u'Fitness & Instruction'], 'children': [], 'title': u'Pilates'}
+{'parents': [u'Fitness & Instruction'], 'children': [], 'title': u'Yoga'}
+{'parents': [u'Fitness & Instruction'], 'children': [], 'title': u'Boxing'}
+{'parents': [u'Fitness & Instruction'], 'children': [], 'title': u'Martial Arts'}
+{'parents': [u'Fitness & Instruction'], 'children': [], 'title': u'Dance Studios'}
+{'parents': [u'Parks'], 'children': [], 'title': u'Dog Parks'}
+{'parents': [u'Transportation'], 'children': [], 'title': u'Public Transportation'}
+{'parents': [u'Transportation'], 'children': [], 'title': u'Airlines'}
+{'parents': [u'Transportation'], 'children': [], 'title': u'Limos'}
+{'parents': [u'Transportation'], 'children': [], 'title': u'Taxis'}
+{'parents': [u'Transportation'], 'children': [], 'title': u'Airport Shuttles'}
+{'parents': [u'Real Estate'], 'children': [], 'title': u'Real Estate Services'}
+{'parents': [u'Real Estate'], 'children': [], 'title': u'Apartments'}
+{'parents': [u'Real Estate'], 'children': [], 'title': u'Real Estate Agents'}
+{'parents': [u'Real Estate'], 'children': [], 'title': u'Commercial Real Estate'}
+{'parents': [u'Real Estate'], 'children': [], 'title': u'Mortgage Brokers'}
+{'parents': [u'Real Estate'], 'children': [], 'title': u'Property Management'}
+{'parents': [u'Photographers'], 'children': [], 'title': u'Event Photography'}
+{'parents': [u'Photographers'], 'children': [], 'title': u'Session Photography'}
+{'parents': [u'Pet Services'], 'children': [], 'title': u'Dog Walkers'}
+{'parents': [u'Pet Services'], 'children': [], 'title': u'Pet Training'}
+{'parents': [u'Pet Services'], 'children': [], 'title': u'Pet Sitting'}
+{'parents': [u'Pet Services'], 'children': [], 'title': u'Pet Groomers'}
+{'parents': [u'Bars'], 'children': [], 'title': u'Sports Bars'}
+{'parents': [u'Bars'], 'children': [], 'title': u'Pubs'}
+{'parents': [u'Bars'], 'children': [], 'title': u'Gay Bars'}
+{'parents': [u'Bars'], 'children': [], 'title': u'Hookah Bars'}
+{'parents': [u'Bars'], 'children': [], 'title': u'Beer Bar'}
+{'parents': [u'Bars'], 'children': [], 'title': u'Dive Bars'}
+{'parents': [u'Bars'], 'children': [], 'title': u'Cocktail Bars'}
+{'parents': [u'Bars'], 'children': [], 'title': u'Lounges'}
+{'parents': [u'Bars'], 'children': [], 'title': u'Wine Bars'}
+{'parents': [u'Fashion'], 'children': [], 'title': u"Men's Clothing"}
+{'parents': [u'Fashion'], 'children': [], 'title': u'Plus Size Fashion'}
+{'parents': [u'Fashion'], 'children': [], 'title': u'Accessories'}
+{'parents': [u'Fashion'], 'children': [], 'title': u'Shoe Stores'}
+{'parents': [u'Fashion'], 'children': [], 'title': u"Children's Clothing"}
+{'parents': [u'Fashion'], 'children': [], 'title': u'Formal Wear'}
+{'parents': [u'Fashion'], 'children': [], 'title': u'Leather Goods'}
+{'parents': [u'Fashion'], 'children': [], 'title': u'Lingerie'}
+{'parents': [u'Sporting Goods', u'Fashion'], 'children': [], 'title': u'Sports Wear'}
+{'parents': [u'Fashion'], 'children': [], 'title': u"Women's Clothing"}
+{'parents': [u'Flowers & Gifts'], 'children': [], 'title': u'Gift Shops'}
+{'parents': [u'Flowers & Gifts'], 'children': [], 'title': u'Florists'}
+{'parents': [u'Arts & Crafts'], 'children': [], 'title': u'Costumes'}
+{'parents': [u'Arts & Crafts'], 'children': [], 'title': u'Framing'}
+{'parents': [u'Arts & Crafts'], 'children': [], 'title': u'Fabric Stores'}
+{'parents': [u'Arts & Crafts'], 'children': [], 'title': u'Art Supplies'}
+{'parents': [u'Home & Garden'], 'children': [], 'title': u'Hot Tub & Pool'}
+{'parents': [u'Home & Garden'], 'children': [], 'title': u'Furniture Stores'}
+{'parents': [u'Home & Garden'], 'children': [], 'title': u'Appliances'}
+{'parents': [u'Home & Garden'], 'children': [], 'title': u'Rugs'}
+{'parents': [u'Home & Garden'], 'children': [], 'title': u'Kitchen & Bath'}
+{'parents': [u'Home & Garden'], 'children': [], 'title': u'Nurseries & Gardening'}
+{'parents': [u'Home & Garden'], 'children': [], 'title': u'Home Decor'}
+{'parents': [u'Home & Garden'], 'children': [], 'title': u'Hardware Stores'}
+{'parents': [u'Home & Garden'], 'children': [], 'title': u'Mattresses'}
+{'parents': [u'Sporting Goods'], 'children': [], 'title': u'Outdoor Gear'}
+{'parents': [u'Sporting Goods'], 'children': [], 'title': u'Bikes'}
+{'parents': [u'Specialty Food'], 'children': [], 'title': u'Meat Shops'}
+{'parents': [u'Specialty Food'], 'children': [], 'title': u'Health Markets'}
+{'parents': [u'Specialty Food'], 'children': [], 'title': u'Chocolatiers & Shops'}
+{'parents': [u'Specialty Food'], 'children': [], 'title': u'Cheese Shops'}
+{'parents': [u'Specialty Food'], 'children': [], 'title': u'Fruits & Veggies'}
+{'parents': [u'Specialty Food'], 'children': [], 'title': u'Seafood Markets'}
+{'parents': [u'Specialty Food'], 'children': [], 'title': u'Candy Stores'}
+{'parents': [u'Dentists'], 'children': [], 'title': u'General Dentistry'}
+{'parents': [u'Dentists'], 'children': [], 'title': u'Pediatric Dentists'}
+{'parents': [u'Dentists'], 'children': [], 'title': u'Cosmetic Dentists'}
+{'parents': [u'Dentists'], 'children': [], 'title': u'Oral Surgeons'}
+{'parents': [u'Dentists'], 'children': [], 'title': u'Periodontists'}
+{'parents': [u'Dentists'], 'children': [], 'title': u'Orthodontists'}
+{'parents': [u'Dentists'], 'children': [], 'title': u'Endodontists'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Naturopathic/Holistic'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Sports Medicine'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Cosmetic Surgeons'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Pain Management'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Internal Medicine'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Orthopedists'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Obstetricians & Gynecologists'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Podiatrists'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Pediatricians'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Dermatologists'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Surgeons'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Tattoo Removal'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Family Practice'}
+{'parents': [u'Doctors'], 'children': [], 'title': u'Ophthalmologists'}
+{'parents': [u'Diagnostic Services'], 'children': [], 'title': u'Laboratory Testing'}
+{'parents': [u'Diagnostic Services'], 'children': [], 'title': u'Diagnostic Imaging'}
+{'parents': [u'Japanese'], 'children': [], 'title': u'Ramen'}
+{'parents': [u'Chinese'], 'children': [], 'title': u'Dim Sum'}
+{'parents': [u'Mexican'], 'children': [], 'title': u'Tacos'}
+{'parents': [u'Middle Eastern'], 'children': [], 'title': u'Lebanese'}
+{'parents': [u'Mediterranean'], 'children': [], 'title': u'Falafel'}
+{'parents': [u'Lawyers'], 'children': [], 'title': u'DUI Law'}
+{'parents': [u'Lawyers'], 'children': [], 'title': u'Criminal Defense Law'}
+{'parents': [u'Lawyers'], 'children': [], 'title': u'Divorce & Family Law'}
+{'parents': [u'Lawyers'], 'children': [], 'title': u'Estate Planning Law'}
+{'parents': [u'Lawyers'], 'children': [], 'title': u'Personal Injury Law'}
+{'parents': [u'Lawyers'], 'children': [], 'title': u'Bankruptcy Law'}
+{'parents': [u'Lawyers'], 'children': [], 'title': u'Business Law'}
+{'parents': [u'Lawyers'], 'children': [], 'title': u'General Litigation'}
+{'parents': [u'Lawyers'], 'children': [], 'title': u'Real Estate Law'}
+{'parents': [u'Insurance'], 'children': [], 'title': u'Life Insurance'}
+{'parents': [u'Insurance'], 'children': [], 'title': u'Home & Rental Insurance'}
+{'parents': [u'Insurance'], 'children': [], 'title': u'Auto Insurance'}
+{'parents': [u'IT Services & Computer Repair'], 'children': [], 'title': u'Telecommunications'}
+{'parents': [u'IT Services & Computer Repair'], 'children': [], 'title': u'Mobile Phone Repair'}
+{'parents': [u'IT Services & Computer Repair'], 'children': [], 'title': u'Data Recovery'}
+{'parents': [u'Laundry Services'], 'children': [], 'title': u'Dry Cleaning'}
+{'parents': [u'Laundry Services'], 'children': [], 'title': u'Laundromat'}
+{'parents': [u'Auto Glass Services'], 'children': [], 'title': u'Car Window Tinting'}
+{'parents': [u'Specialty Schools'], 'children': [], 'title': u'Cosmetology Schools'}
+{'parents': [u'Specialty Schools'], 'children': [], 'title': u'Driving Schools'}
+{'parents': [u'Specialty Schools'], 'children': [], 'title': u'Dance Schools'}
+{'parents': [u'Specialty Schools'], 'children': [], 'title': u'Art Schools'}
+{'parents': [u'Gyms'], 'children': [], 'title': u'Interval Training Gyms'}
