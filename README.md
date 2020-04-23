@@ -45,10 +45,20 @@ All the parameters in `conf.py` have default values. Change parameters `mode`, `
 
 ```
 @article{mao2019hierarchical,
-  title={Hierarchical Text Classification with Reinforced Label Assignment},
-  author={Mao, Yuning and Tian, Jingjing and Han, Jiawei and Ren, Xiang},
-  journal={arXiv preprint arXiv:1908.10419},
-  year={2019}
+@inproceedings{mao-etal-2019-hierarchical,
+    title = "Hierarchical Text Classification with Reinforced Label Assignment",
+    author = "Mao, Yuning  and
+      Tian, Jingjing  and
+      Han, Jiawei  and
+      Ren, Xiang",
+    booktitle = "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+    month = nov,
+    year = "2019",
+    address = "Hong Kong, China",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/D19-1042",
+    doi = "10.18653/v1/D19-1042",
+    pages = "445--455",
 }
 ```
 
