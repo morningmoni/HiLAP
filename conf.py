@@ -15,7 +15,7 @@ def print_config(config, logger=None):
 def conf():
     ap = argparse.ArgumentParser()
     # change the parameters to test different method/base_model/dataset combinations
-    ap.add_argument('--mode', default='sl', choices=['rl-taxo', 'sl', 'step-sl', 'hmcn'])
+    ap.add_argument('--mode', default='sl', choices=['hilap', 'sl', 'hilap-sl', 'hmcn'])
     ap.add_argument('--base_model', default='textcnn', choices=['han', 'textcnn', 'ohcnn-bow-fast', 'raw'])
     ap.add_argument('--dataset', default='rcv1', choices=['yelp', 'rcv1', 'nyt', 'cellcycle_FUN'])
     ap.add_argument('--isTrain', default=False, help='True for continuing training')

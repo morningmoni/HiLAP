@@ -378,9 +378,9 @@ def test_taxo(data_path, save_prob=False):
 
 
 def eval_save_model(i, pred_l=None, target_l=None, datapath=None, save=False, output=True):
-    if args.mode == 'step-sl':
+    if args.mode == 'hilap-sl':
         test_f = test_step_sl
-    elif args.mode == 'rl-taxo':
+    elif args.mode == 'hilap':
         test_f = test_taxo
     else:
         test_f = test_sl
@@ -395,7 +395,7 @@ def eval_save_model(i, pred_l=None, target_l=None, datapath=None, save=False, ou
     writer.add_scalar('data/samples_train', f1_aa_s, tree.n_update)
     if not save:
         return
-    if args.mode in ['rl-taxo', 'step-sl']:
+    if args.mode in ['hilap', 'hilap-sl']:
         save_checkpoint({
             'state_dict': policy.state_dict(),
             'optimizer': optimizer.state_dict(),
@@ -714,8 +714,8 @@ elif args.base_model == 'raw':
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr, weight_decay=args.l2_weight)
 
 base_model = model
-if args.mode in ['rl-taxo', 'step-sl']:
-    if args.mode == 'rl-taxo':
+if args.mode in ['hilap', 'hilap-sl']:
+    if args.mode == 'hilap':
         policy = Policy(args, tree.n_class + 1, base_model, in_dim)
     else:
         policy = Policy(args, tree.n_class, base_model, in_dim)
@@ -772,11 +772,11 @@ if args.stat_check:
     evaluate([[tree.id2idx[id2doc_train[did]['categories'][0]]] for did in train_ids], train_ids)
     evaluate([[tree.id2idx[id2doc_train[did]['categories'][0]]] for did in test_ids], test_ids)
 if not args.load_model or args.isTrain:
-    if args.mode == 'step-sl':
+    if args.mode == 'hilap-sl':
         train_step_sl()
         # test_tmp('test' + args.ohcnn_data)
         test_step_sl('test' + args.ohcnn_data, save_prob=False)
-    elif args.mode == 'rl-taxo':
+    elif args.mode == 'hilap':
         train_taxo()
         # test_taxo('train' + args.ohcnn_data, save_prob=False)
         # test_taxo('test' + args.ohcnn_data, save_prob=False)
@@ -786,12 +786,12 @@ if not args.load_model or args.isTrain:
         train_sl()
         test_sl()
 else:
-    if args.mode == 'rl-taxo':
+    if args.mode == 'hilap':
         # test_step_sl('train' + args.ohcnn_data, save_prob=False)
         # test_step_sl('test' + args.ohcnn_data, save_prob=True)
         test_taxo('train' + args.ohcnn_data, save_prob=False)
         test_taxo('test' + args.ohcnn_data, save_prob=False)
-    elif args.mode == 'step-sl':
+    elif args.mode == 'hilap-sl':
         # test_sl(X_test, test_ids)  # for testing global_flat with additional local_loss
         # test_step_sl('train' + args.ohcnn_data, save_prob=True)
         # test_tmp('test' + args.ohcnn_data)
