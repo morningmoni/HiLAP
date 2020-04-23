@@ -44,7 +44,6 @@ All the parameters in `conf.py` have default values. Change parameters `mode`, `
 ## Cite
 
 ```
-@article{mao2019hierarchical,
 @inproceedings{mao-etal-2019-hierarchical,
     title = "Hierarchical Text Classification with Reinforced Label Assignment",
     author = "Mao, Yuning  and
