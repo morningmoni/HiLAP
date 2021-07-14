@@ -31,9 +31,9 @@ PyTorch **0.3**
 Due to copyright issues, we can't directly release the datasets used in our experiments.
 Instead, we provide the links to the five data sources (the first two may require license):
 
-- [RCV1](http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/lyrl2004_rcv1v2_README.htm)
+- RCV1 [original release](http://www.ai.mit.edu/projects/jmlr/papers/volume5/lewis04a/lyrl2004_rcv1v2_README.htm), [text data](https://trec.nist.gov/data/reuters/reuters.html) (**update:** download the text data and convert to docs.txt with format "docid content")
 - [NYT](https://catalog.ldc.upenn.edu/LDC2008T19)
-- [Yelp](https://www.yelp.com/dataset/challenge)
+- [Yelp](https://www.yelp.com/dataset/challenge) (**update:** the latest release is different from what we used, pls send an email if you need the version we used)
 - [FunGO](https://dtai.cs.kuleuven.be/clus/hmcdatasets/)
 
 Please check `readData_*.py` to see how to use our scripts to process and generate the datasets from the original data.
